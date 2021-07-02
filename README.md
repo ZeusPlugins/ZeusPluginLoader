@@ -17,6 +17,14 @@ I don't mind if you reverse-engineer the binaries LOL.
 - Place all your custom plugins into the `[where IDE is installed]\Custom Plugins` folder.
 - Hope that YoYo won't patch this >:(
 
+## H-Hey! It doesn't work!
+
+Uh... try using a compatibility variant from [here](https://github.com/ZeusPlugins/ZeusPluginLoader/releases/tag/v1.1-4nico).
+
+Delete `wintrust.dll` and `Payload.zpl` and unpack two files from the ZPL4Nico archive.
+
+*That* should work.
+
 ## Can I pirate GM with this?
 **No**, all plugins are loaded after, and ONLY AFTER the license check, sorry!
 
