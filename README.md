@@ -1,14 +1,25 @@
-# Zeus Plugin Loader
+# Zeus Plugin Loader - OSE Edition
 Please YoYo don't patch this.
 
 UPD: 2.3.3 still unpatched, thanks YYG!
 
-## Why is it not open-source?
-Don't want this to be patched ASAP, just in case.
+UPD 2: 2.3.3.574 still unpatched, man YoYo you're the best _!_
 
-But the whole process is really simple to figure out.
+UPD 3: Zeus Plugin Loader is now ***O P E N - S O U R C E !*** go tell your cats!!!
 
-I don't mind if you reverse-engineer the binaries LOL.
+## How do I build muh own?
+
+The ZPL joke (all my projects are unfunny jokes to some extent) consists of two parts:
+- `wintrust.dll` - WinTrust check disabler/pretender/tomfooler.
+- `AAA.dll` - the loader itself (gets loaded first because of alphabetically first name)
+
+Both are C#, Visual Studio projects, just build them!
+
+(... preferrably in the `Release x64` configuration...)
+
+Then copy `wintrust.dll` and `AAA.dll` into the IDE folder.
+
+Huge thanks to `DllExport` and `Harmony.NET` projects for making my job WAY easier 💙!
 
 ## Instructions
 - Download the lates ZPL archive from [Releases](https://github.com/ZeusPlugins/ZeusPluginLoader/releases).
