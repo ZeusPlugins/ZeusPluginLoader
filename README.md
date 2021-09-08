@@ -7,6 +7,8 @@ UPD 2: 2.3.3.574 still unpatched, man YoYo you're the best _!_
 
 UPD 3: Zeus Plugin Loader is now ***O P E N - S O U R C E !*** go tell your cats!!!
 
+UPD 4: The stable 2.4 IDE is **NOT** supported at the moment. (reason: laziness)
+
 ## How do I build muh own?
 
 The ZPL joke (all my projects are unfunny jokes to some extent) consists of two parts:
